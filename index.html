@@ -1,743 +1,88 @@
 <!DOCTYPE html>
 <html lang="en" class="antialiased bg-topography bg-[#0d0d0d] text-white font-industry">
-  <head>
+<head>
   <title>scratchstack.dev ~ 👾</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <meta name="theme-color" content="#0d0d0d">
-
   <meta name="author" content="ScratchStack">
   <meta name="description" content="Official site of scratchstack | full stack dev">
   <meta name="keywords" content="scratch, scratchstack, gta5rp, anticheat, smenu, ps4, jailbreak, exploit, jtag, playsation jailbreak, c, rust, lua, ac, fivem, development, developer, dev, macho, cc, cheats, lua, redengine, eulen, qb,esx,qbx,developer,discord.js,discord,next.js,next,express.js,react.js,cs,csharp,dev,github">
-
   <meta property="og:description" content="Fullstack Developer | FiveM & RedM Scripts | Discord Bots | Web Applications & More.">
   <meta property="og:site_name" content="scratchstack.dev">
   <meta property="og:title" content="scratchstack.dev - Home">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://scratchstack.dev">
-
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="scratchstack.dev - Home">
   <meta name="twitter:description" content="Official site of scratchstack.dev | full stack dev">
   <meta name="twitter:creator" content="@ScratchStack">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-*, :before, :after {
-	--tw-border-spacing-x: 0;
-	--tw-border-spacing-y: 0;
-	--tw-translate-x: 0;
-	--tw-translate-y: 0;
-	--tw-rotate: 0;
-	--tw-skew-x: 0;
-	--tw-skew-y: 0;
-	--tw-scale-x: 1;
-	--tw-scale-y: 1;
-	--tw-pan-x: ;
-	--tw-pan-y: ;
-	--tw-pinch-zoom: ;
-	--tw-scroll-snap-strictness: proximity;
-	--tw-gradient-from-position: ;
-	--tw-gradient-via-position: ;
-	--tw-gradient-to-position: ;
-	--tw-ordinal: ;
-	--tw-slashed-zero: ;
-	--tw-numeric-figure: ;
-	--tw-numeric-spacing: ;
-	--tw-numeric-fraction: ;
-	--tw-ring-inset: ;
-	--tw-ring-offset-width: 0px;
-	--tw-ring-offset-color: #fff;
-	--tw-ring-color: rgb(59 130 246 / .5);
-	--tw-ring-offset-shadow: 0 0 #0000;
-	--tw-ring-shadow: 0 0 #0000;
-	--tw-shadow: 0 0 #0000;
-	--tw-shadow-colored: 0 0 #0000;
-	--tw-blur: ;
-	--tw-brightness: ;
-	--tw-contrast: ;
-	--tw-grayscale: ;
-	--tw-hue-rotate: ;
-	--tw-invert: ;
-	--tw-saturate: ;
-	--tw-sepia: ;
-	--tw-drop-shadow: ;
-	--tw-backdrop-blur: ;
-	--tw-backdrop-brightness: ;
-	--tw-backdrop-contrast: ;
-	--tw-backdrop-grayscale: ;
-	--tw-backdrop-hue-rotate: ;
-	--tw-backdrop-invert: ;
-	--tw-backdrop-opacity: ;
-	--tw-backdrop-saturate: ;
-	--tw-backdrop-sepia: ;
-	--tw-contain-size: ;
-	--tw-contain-layout: ;
-	--tw-contain-paint: ;
-	--tw-contain-style: ;
-}
-
-::backdrop {
-	--tw-border-spacing-x: 0;
-	--tw-border-spacing-y: 0;
-	--tw-translate-x: 0;
-	--tw-translate-y: 0;
-	--tw-rotate: 0;
-	--tw-skew-x: 0;
-	--tw-skew-y: 0;
-	--tw-scale-x: 1;
-	--tw-scale-y: 1;
-	--tw-pan-x: ;
-	--tw-pan-y: ;
-	--tw-pinch-zoom: ;
-	--tw-scroll-snap-strictness: proximity;
-	--tw-gradient-from-position: ;
-	--tw-gradient-via-position: ;
-	--tw-gradient-to-position: ;
-	--tw-ordinal: ;
-	--tw-slashed-zero: ;
-	--tw-numeric-figure: ;
-	--tw-numeric-spacing: ;
-	--tw-numeric-fraction: ;
-	--tw-ring-inset: ;
-	--tw-ring-offset-width: 0px;
-	--tw-ring-offset-color: #fff;
-	--tw-ring-color: rgb(59 130 246 / .5);
-	--tw-ring-offset-shadow: 0 0 #0000;
-	--tw-ring-shadow: 0 0 #0000;
-	--tw-shadow: 0 0 #0000;
-	--tw-shadow-colored: 0 0 #0000;
-	--tw-blur: ;
-	--tw-brightness: ;
-	--tw-contrast: ;
-	--tw-grayscale: ;
-	--tw-hue-rotate: ;
-	--tw-invert: ;
-	--tw-saturate: ;
-	--tw-sepia: ;
-	--tw-drop-shadow: ;
-	--tw-backdrop-blur: ;
-	--tw-backdrop-brightness: ;
-	--tw-backdrop-contrast: ;
-	--tw-backdrop-grayscale: ;
-	--tw-backdrop-hue-rotate: ;
-	--tw-backdrop-invert: ;
-	--tw-backdrop-opacity: ;
-	--tw-backdrop-saturate: ;
-	--tw-backdrop-sepia: ;
-	--tw-contain-size: ;
-	--tw-contain-layout: ;
-	--tw-contain-paint: ;
-	--tw-contain-style: ;
-}
-
-*, :before, :after {
-	box-sizing: border-box;
-	border-width: 0;
-	border-style: solid;
-	border-color: #e5e7eb;
-}
-
-:before, :after {
-	--tw-content: "";
-}
-
-html, :host {
-	line-height: 1.5;
-	-webkit-text-size-adjust: 100%;
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-	font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-	font-feature-settings: normal;
-	font-variation-settings: normal;
-	-webkit-tap-highlight-color: transparent;
-}
-
-body {
-	margin: 0;
-	line-height: inherit;
-}
-
-hr {
-	height: 0;
-	color: inherit;
-	border-top-width: 1px;
-}
-
-abbr:where([title]) {
-	-webkit-text-decoration: underline dotted;
-	text-decoration: underline dotted;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-size: inherit;
-	font-weight: inherit;
-}
-
-a {
-	color: inherit;
-	text-decoration: inherit;
-}
-
-b, strong {
-	font-weight: bolder;
-}
-
-code, kbd, samp, pre {
-	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-	font-feature-settings: normal;
-	font-variation-settings: normal;
-	font-size: 1em;
-}
-
-small {
-	font-size: 80%;
-}
-
-sub, sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
-}
-
-sub {
-	bottom: -.25em;
-}
-
-sup {
-	top: -.5em;
-}
-
-table {
-	text-indent: 0;
-	border-color: inherit;
-	border-collapse: collapse;
-}
-
-button, input, optgroup, select, textarea {
-	font-family: inherit;
-	font-feature-settings: inherit;
-	font-variation-settings: inherit;
-	font-size: 100%;
-	font-weight: inherit;
-	line-height: inherit;
-	letter-spacing: inherit;
-	color: inherit;
-	margin: 0;
-	padding: 0;
-}
-
-button, select {
-	text-transform: none;
-}
-
-button, input:where([type=button]), input:where([type=reset]), input:where([type=submit]) {
-	-webkit-appearance: button;
-	background-color: transparent;
-	background-image: none;
-}
-
-:-moz-focusring {
-	outline: auto;
-}
-
-:-moz-ui-invalid {
-	box-shadow: none;
-}
-
-progress {
-	vertical-align: baseline;
-}
-
-::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
-	height: auto;
-}
-
-[type=search] {
-	-webkit-appearance: textfield;
-	outline-offset: -2px;
-}
-
-::-webkit-search-decoration {
-	-webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-	-webkit-appearance: button;
-	font: inherit;
-}
-
-summary {
-	display: list-item;
-}
-
-blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
-	margin: 0;
-}
-
-fieldset {
-	margin: 0;
-	padding: 0;
-}
-
-legend {
-	padding: 0;
-}
-
-ol, ul, menu {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-dialog {
-	padding: 0;
-}
-
-textarea {
-	resize: vertical;
-}
-
-input::-moz-placeholder, textarea::-moz-placeholder {
-	opacity: 1;
-	color: #9ca3af;
-}
-
-input::placeholder, textarea::placeholder {
-	opacity: 1;
-	color: #9ca3af;
-}
-
-button, [role=button] {
-	cursor: pointer;
-}
-
-:disabled {
-	cursor: default;
-}
-
-img, svg, video, canvas, audio, iframe, embed, object {
-	display: block;
-	vertical-align: middle;
-}
-
-img, video {
-	max-width: 100%;
-	height: auto;
-}
-
-[hidden]:where(:not([hidden=until-found])) {
-	display: none;
-}
-
-.mx-auto {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.my-6 {
-	margin-top: 1.5rem;
-	margin-bottom: 1.5rem;
-}
-
-.mb-4 {
-	margin-bottom: 1rem;
-}
-
-.ml-4 {
-	margin-left: 1rem;
-}
-
-.mt-6 {
-	margin-top: 1.5rem;
-}
-
-.flex {
-	display: flex;
-}
-
-.h-14 {
-	height: 3.5rem;
-}
-
-.h-5 {
-	height: 1.25rem;
-}
-
-.h-6 {
-	height: 1.5rem;
-}
-
-.min-h-screen {
-	min-height: 100vh;
-}
-
-.w-14 {
-	width: 3.5rem;
-}
-
-.w-5 {
-	width: 1.25rem;
-}
-
-.w-6 {
-	width: 1.5rem;
-}
-
-.max-w-xl {
-	max-width: 36rem;
-}
-
-.transform {
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.list-inside {
-	list-style-position: inside;
-}
-
-.list-disc {
-	list-style-type: disc;
-}
-
-.flex-col {
-	flex-direction: column;
-}
-
-.items-center {
-	align-items: center;
-}
-
-.items-baseline {
-	align-items: baseline;
-}
-
-.justify-center {
-	justify-content: center;
-}
-
-.justify-between {
-	justify-content: space-between;
-}
-
-.gap-3 {
-	gap: .75rem;
-}
-
-.border-b {
-	border-bottom-width: 1px;
-}
-
-.border-t {
-	border-top-width: 1px;
-}
-
-.bg-\[\#0d0d0d\] {
-	--tw-bg-opacity: 1;
-	background-color: rgb(13 13 13 / var(--tw-bg-opacity,1));
-}
-
-.bg-topography {
-	background-image: url(/bg.gif);
-    background-size: cover;
-
-}
-
-.px-4 {
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-
-.py-1 {
-	padding-top: .25rem;
-	padding-bottom: .25rem;
-}
-
-.py-6 {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
-}
-
-.pb-4 {
-	padding-bottom: 1rem;
-}
-
-.pl-6 {
-	padding-left: 1.5rem;
-}
-
-.pt-2 {
-	padding-top: .5rem;
-}
-
-.font-industry {
-	font-family: Industry, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-}
-
-.text-3xl {
-	font-size: 1.875rem;
-	line-height: 2.25rem;
-}
-
-.text-4xl {
-	font-size: 2.25rem;
-	line-height: 2.5rem;
-}
-
-.text-xl {
-	font-size: 1.25rem;
-	line-height: 1.75rem;
-}
-
-.font-semibold {
-	font-weight: 600;
-}
-
-.font-thin {
-	font-weight: 100;
-}
-
-.leading-8 {
-	line-height: 2rem;
-}
-
-.text-white {
-	--tw-text-opacity: 1;
-	color: rgb(255 255 255 / var(--tw-text-opacity,1));
-}
-
-.text-white\/80 {
-	color: #fffc;
-}
-
-.underline-offset-2 {
-	text-underline-offset: 2px;
-}
-
-.underline-offset-4 {
-	text-underline-offset: 4px;
-}
-
-.antialiased {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.duration-150 {
-	transition-duration: .15s;
-}
-
-.hover\:text-gray-400:hover {
-	--tw-text-opacity: 1;
-	color: rgb(156 163 175 / var(--tw-text-opacity,1));
-}
-
-.hover\:underline:hover {
-	text-decoration-line: underline;
-}
-
-@font-face {
-	font-family: Industry;
-	src: url(/fonts/Industry-Light.eot);
-	src: local("Industry Light"), local("Industry-Light"), url(/fonts/Industry-Light.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-Light.woff) format("woff"), url(/fonts/Industry-Light.ttf) format("truetype");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Industry;
-	src: url(/fonts/Industry-Bold.eot);
-	src: local("Industry Bold"), local("Industry-Bold"), url(/fonts/Industry-Bold.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-Bold.woff) format("woff"), url(/fonts/Industry-Bold.ttf) format("truetype");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Industry;
-	src: url(/fonts/Industry-BoldItalic.eot);
-	src: local("Industry Bold Italic"), local("Industry-BoldItalic"), url(/fonts/Industry-BoldItalic.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-BoldItalic.woff) format("woff"), url(/fonts/Industry-BoldItalic.ttf) format("truetype");
-	font-weight: 700;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: Industry;
-	src: url(/fonts/Industry-LightItalic.eot);
-	src: local("Industry Light Italic"), local("Industry-LightItalic"), url(/fonts/Industry-LightItalic.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-LightItalic.woff) format("woff"), url(/fonts/Industry-LightItalic.ttf) format("truetype");
-	font-weight: 300;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: Industry-Book;
-	src: url(/fonts/Industry-Book.eot);
-	src: local("Industry Book"), local("Industry-Book"), url(/fonts/Industry-Book.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-Book.woff) format("woff"), url(/fonts/Industry-Book.ttf) format("truetype");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: Industry;
-	src: url(/fonts/Industry-BlackItalic.eot);
-	src: local("Industry Black Italic"), local("Industry-BlackItalic"), url(/fonts/Industry-BlackItalic.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-BlackItalic.woff) format("woff"), url(/fonts/Industry-BlackItalic.ttf) format("truetype");
-	font-weight: 900;
-	font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: Industry-BookItalic;
-	src: url(/fonts/Industry-BookItalic.eot);
-	src: local("Industry Book Italic"), local("Industry-BookItalic"), url(/fonts/Industry-BookItalic.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-BookItalic.woff) format("woff"), url(/fonts/Industry-BookItalic.ttf) format("truetype");
-	font-weight: 400;
-	font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: Industry-DemiItalic;
-	src: url(/fonts/Industry-DemiItalic.eot);
-	src: local("Industry Demi Italic"), local("Industry-DemiItalic"), url(/fonts/Industry-DemiItalic.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-DemiItalic.woff) format("woff"), url(/fonts/Industry-DemiItalic.ttf) format("truetype");
-	font-weight: 400;
-	font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: Industry;
-	src: url(/fonts/Industry-Black.eot);
-	src: local("Industry Black"), local("Industry-Black"), url(/fonts/Industry-Black.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-Black.woff) format("woff"), url(/fonts/Industry-Black.ttf) format("truetype");
-	font-weight: 900;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: Industry;
-	src: url(/fonts/Industry-Medium.eot);
-	src: local("Industry Medium"), local("Industry-Medium"), url(/fonts/Industry-Medium.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-Medium.woff) format("woff"), url(/fonts/Industry-Medium.ttf) format("truetype");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: Industry;
-	src: url(/fonts/Industry-MediumItalic.eot);
-	src: local("Industry Medium Italic"), local("Industry-MediumItalic"), url(/fonts/Industry-MediumItalic.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-MediumItalic.woff) format("woff"), url(/fonts/Industry-MediumItalic.ttf) format("truetype");
-	font-weight: 500;
-	font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: Industry-Demi;
-	src: url(/fonts/Industry-Demi.eot);
-	src: local("Industry Demi"), local("Industry-Demi"), url(/fonts/Industry-Demi.eot?#iefix) format("embedded-opentype"), url(/fonts/Industry-Demi.woff) format("woff"), url(/fonts/Industry-Demi.ttf) format("truetype");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-
-@media (min-width: 384px) {
-	.xs\:mt-24 {
-		margin-top: 6rem;
-	}
-}
-
-@media (min-width: 640px) {
-	.sm\:mt-36 {
-		margin-top: 9rem;
-	}
-
-	.sm\:h-6 {
-		height: 1.5rem;
-	}
-
-	.sm\:h-7 {
-		height: 1.75rem;
-	}
-
-	.sm\:w-6 {
-		width: 1.5rem;
-	}
-
-	.sm\:w-7 {
-		width: 1.75rem;
-	}
-
-	.sm\:leading-none {
-		line-height: 1;
-	}
-}
-
-</style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
+<body class="flex flex-col min-h-screen mx-auto max-w-3xl px-4">
 
-  <body class="flex min-h-screen flex-col mx-auto max-w-xl px-4">
-    <header class="mt-6 xs:mt-24 sm:mt-36">
-  <div class="flex justify-between items-baseline">
-    <div class="flex justify-between items-center">
-      <div class="flex flex-col justify-center ml-4">
-        <div class="text-3xl font-semibold">Scratch</div>
-        <div class="text-xl font-thin">~</div>
+  <header class="mt-12 sm:mt-20">
+    <div class="flex justify-between items-baseline">
+      <div class="flex flex-col">
+        <h1 class="text-3xl font-semibold">Scratch</h1>
+        <span class="text-xl font-thin">~</span>
       </div>
+      <div class="text-white/80">scratchstack.dev</div>
     </div>
-    <div>scratchstack.dev</div>
-  </div>
+    <hr class="border-b border-white/20 mt-2">
+  </header>
 
-  <div class="border-b pt-2"></div>
-</header>
-
-    <main>
-      
-  <div class="my-6">
-    <ul class="py-6 list-disc list-inside">
+  <main class="my-6 space-y-6">
+    <ul class="list-disc list-inside space-y-2">
       <li>19</li>
       <li>Fullstack Developer</li>
-      <li>
-        Current Projects: <ul class="list-disc list-inside pl-6 py-1">
-          <li>
-			   <a href="https://github.com/ScrachStack/sMenu" target="_blank" rel="noreferrer noopener" class="hover:underline underline-offset-4 text-white/80 leading-8 sm:leading-none">
-              sMenu
-            </a>
-          </li>
+      <li>Current Projects:
+        <ul class="list-disc list-inside pl-6 mt-1">
+          <li><a href="https://github.com/ScrachStack/sMenu" target="_blank" class="text-white/80 hover:underline underline-offset-4">sMenu</a></li>
         </ul>
       </li>
-      <li>
-        Legacy Projects: <ul class="list-disc list-inside pl-6 py-1">
-          <li>
-            <a href="https://github.com/ScrachStack/vulcan-ac" target="_blank" rel="noreferrer noopener" class="hover:underline underline-offset-2 text-white/80 leading-8 sm:leading-none">
-              Vulcan Anticheat
-            </a>
-          </li>
+      <li>Legacy Projects:
+        <ul class="list-disc list-inside pl-6 mt-1">
+          <li><a href="https://github.com/ScrachStack/vulcan-ac" target="_blank" class="text-white/80 hover:underline underline-offset-2">Vulcan Anticheat</a></li>
         </ul>
       </li>
     </ul>
-  </div>
 
-    </main>
+    <section class="mt-8 p-4 bg-white/5 rounded-lg">
+      <div id="readme" class="prose max-w-full text-white"></div>
+    </section>
+  </main>
 
-    <footer class="mb-4">
-  <div class="flex justify-between">
-    <div class="flex items-center gap-3">
-      <a href="https://github.com/ScrachStack" target="_blank" rel="noreferrer noopener">
-        <svg class="sm:w-6 sm:h-6 w-5 h-5 duration-150 hover:text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" aria-label="GitHub" fill="currentColor">
-  <path transform="scale(64)" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"></path>
-</svg>
-      </a>
-
-      <a href="https://discord.gg/FaFppQwsgv">
-        <svg class="sm:w-6 sm:h-6 w-5 h-5 duration-150 hover:text-gray-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="Email">
-  <path d="M19.5 22.5a3 3 0 003-3v-8.174l-6.879 4.022 3.485 1.876a.75.75 0 01-.712 1.321l-5.683-3.06a1.5 1.5 0 00-1.422 0l-5.683 3.06a.75.75 0 01-.712-1.32l3.485-1.877L1.5 11.326V19.5a3 3 0 003 3h15z"></path>
-  <path d="M1.5 9.589v-.745a3 3 0 011.578-2.641l7.5-4.039a3 3 0 012.844 0l7.5 4.039A3 3 0 0122.5 8.844v.745l-8.426 4.926-.652-.35a3 3 0 00-2.844 0l-.652.35L1.5 9.59z"></path>
-</svg>
-      </a>
+  <footer class="mt-auto mb-4">
+    <div class="flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <a href="https://github.com/ScrachStack" target="_blank" class="hover:text-gray-400">
+          <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 1024 1024" aria-label="GitHub">
+            <path transform="scale(64)" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"></path>
+          </svg>
+        </a>
+        <a href="https://discord.gg/FaFppQwsgv" class="hover:text-gray-400">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="Discord">
+            <path d="M19.5 22.5a3 3 0 003-3v-8.174l-6.879 4.022 3.485 1.876a.75.75 0 01-.712 1.321l-5.683-3.06a1.5 1.5 0 00-1.422 0l-5.683 3.06a.75.75 0 01-.712-1.32l3.485-1.877L1.5 11.326V19.5a3 3 0 003 3h15z"></path>
+            <path d="M1.5 9.589v-.745a3 3 0 011.578-2.641l7.5-4.039a3 3 0 012.844 0l7.5 4.039A3 3 0 0122.5 8.844v.745l-8.426 4.926-.652-.35a3 3 0 00-2.844 0l-.652.35L1.5 9.59z"></path>
+          </svg>
+        </a>
+      </div>
+      <div>© 2025</div>
     </div>
-    <div>© 2025</div>
-  </div>
-</footer>
+  </footer>
+
+  <script>
+    fetch('https://raw.githubusercontent.com/ScrachStack/ScrachStack/refs/heads/main/README.md')
+      .then(res => res.text())
+      .then(md => {
+        document.getElementById('readme').innerHTML = marked.parse(md);
+      });
+  </script>
+
+</body>
+</html>
